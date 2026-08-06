@@ -2,11 +2,13 @@
 
 # Rishav Sah
 
-### Machine Learning Engineer · Financial & Legal Text Systems
+### Data Scientist (Applied AI/ML)
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&lines=Production+fintech+engineering+%E2%86%92+applied+AI+research;Panel+construction%2C+NLP+extraction%2C+containerized+model+APIs;I+ship+the+diagnostic%2C+not+just+the+number" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1500&color=58A6FF&center=true&vCenter=true&width=560&lines=I+build+things+that+ship." alt="Typing SVG" />
 </a>
+
+
 
 <br/>
 
@@ -60,8 +62,13 @@ Full-stack work at an early-stage fintech digitizing chit-fund and financial-ser
 
 ## Featured Work
 
+### 🏗️ [Telco Data Platform — OLTP → Lakehouse → Warehouse → ML](https://github.com/rishav-sah/telco-churn-data-platform)
+Local end-to-end data platform: 3NF Postgres source with CDC outbox and watermarks, Spark bronze/silver with SCD2 merges and DQ quarantine, dbt star schema in the warehouse, Airflow orchestration. The churn model trained from point-in-time warehouse features reproduces the reference CSV-trained model's ranking power — **ROC-AUC 0.8477 vs 0.848, 4.6× lift at the top decile** — on independently simulated history. Phases 6 and 8 (lineage tooling, cloud IaC) are deliberately deferred and marked as such in the repo.
+
+`Postgres` · `Spark` · `Delta` · `dbt` · `Airflow` · `MinIO` · `MLflow` · `Docker Compose`
+
 ### 🔎 [AI-Powered Investor Intelligence Platform](https://github.com/rishav-sah/AI-Powered-Investor-Intelligence-Platform)
-RAG service over investor documents. Ingests annual reports, extracts KPIs with Azure OpenAI, and indexes content in Azure AI Search for semantic retrieval. Modular FastAPI backend with a PostgreSQL KPI store and insights dashboard, containerized on AKS behind an ACR CI/CD pipeline.
+RAG service over investor documents. Ingests annual reports, extracts KPIs with Azure OpenAI, and indexes content in Azure AI Search for semantic retrieval. Modular FastAPI backend with a PostgreSQL KPI store and insights dashboard, containerized on AKS behind an ACR CI/CD pipeline. Currently running against a three-company demo corpus; retrieval quality is not yet formally evaluated.
 
 `Python` · `FastAPI` · `Azure OpenAI` · `Azure AI Search` · `PostgreSQL` · `Docker` · `AKS`
 
@@ -129,6 +136,7 @@ XGBoost churn classifier on **7,043 records / 30 features**, threshold tuned to 
 ![WRDS](https://img.shields.io/badge/WRDS-011F5B?style=flat-square)
 ![Compustat](https://img.shields.io/badge/Compustat-1B365D?style=flat-square)
 ![World Bank](https://img.shields.io/badge/World_Bank-002244?style=flat-square)
+![IMF](https://img.shields.io/badge/IMF-003366?style=flat-square)
 ![LexisNexis](https://img.shields.io/badge/LexisNexis-9B1B30?style=flat-square)
 ![SEC EDGAR](https://img.shields.io/badge/SEC_Filings-1F3864?style=flat-square)
 
@@ -187,30 +195,3 @@ closing one below.
 <sub>M.S. Data Science, May 2026 · Miami, FL · Open to relocation</sub>
 
 </div>
-
-<!--
-====================================================================
-HOW TO PUBLISH THIS
-
-1. Create a NEW public repository named exactly: rishav-sah
-   (it must match your GitHub username character-for-character —
-   that is what makes GitHub treat it as your profile README)
-2. Check "Add a README file" during creation
-3. Replace the entire contents of README.md with this file
-4. Commit. It appears at github.com/rishav-sah immediately.
-
-NOTES
-- Both typing-svg and streak-stats now live on demolab.com. The old
-  *.herokuapp.com endpoints stopped working when Heroku ended free
-  dynos in Nov 2022 — a lot of README templates still ship the dead
-  URLs. If you copy badge code from elsewhere, check the host.
-- There is no built-in "last updated" timestamp. Doing it live needs
-  a scheduled GitHub Action that rewrites the file. Not worth it —
-  a stale auto-timestamp looks worse than none.
-- The komarev view counter is third-party and occasionally flaky.
-  If it ever renders broken, just delete that line.
-- Pin AI-Powered-Investor-Intelligence-Platform and telco-churn-app
-  from your profile page (Customize your pins) so they sit directly
-  under this README.
-====================================================================
--->
