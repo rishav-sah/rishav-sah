@@ -1,210 +1,151 @@
 <div align="center">
 
-# Rishav Sah
+# Hey, I'm Rishav Sah 👋
 
-### Data Scientist (Applied AI/ML)
+### Full Stack Software Engineer | Backend & Distributed Systems
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1500&color=58A6FF&center=true&vCenter=true&width=560&lines=I+build+things+that+ship." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&pause=1400&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+reliable+systems+that+scale.;Java+%7C+Spring+Boot+%7C+Go+%7C+AWS;From+distributed+services+to+AI-powered+products." alt="Typing introduction" />
 </a>
-
-
 
 <br/>
 
-[![Email](https://img.shields.io/badge/rsah.pro@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rsah.pro@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rsah.connect@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishav-sah-b1966b190/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rishav-sah)
-![Location](https://img.shields.io/badge/Miami,_FL-Open_to_relocation-2EA043?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Open to Relocation](https://img.shields.io/badge/Open_to-Relocation-2EA043?style=for-the-badge)
 
 </div>
 
 ---
 
-## About
+## About Me
 
-I build systems that turn messy, unstructured, multi-source information into things you can actually run analysis on — and I document where they break.
+I'm a full stack software engineer with **7+ years of experience** building and maintaining applications across **banking, fintech, and enterprise SaaS**.
 
-Two years of production fintech engineering at an early-stage startup, then eighteen months of graduate research at FIU's College of Business working on financial panel data, corporate disclosure NLP, and AI-assisted legal document review. The through-line is the same in both: understand the domain, reconcile the sources, validate before you conclude, and be explicit about what the data can and cannot support.
+My strongest area is backend engineering: designing **Java/Spring Boot and Go services**, building REST and gRPC APIs, working with **Kafka-based event pipelines**, and running systems on **AWS and Kubernetes**. I also build interfaces with **React, Next.js, and TypeScript** when a feature needs to go all the way from the service layer to the user.
 
-Finishing an **M.S. in Data Science (May 2026)**. Currently looking for ML / applied AI / data engineering roles where the data is difficult and the correctness bar is high.
+More recently, I've worked on **LLM-powered features**, including retrieval-augmented generation (RAG), embeddings, and AI-assisted workflows. I care about clean code, useful tests, observable services, and making systems easier to operate.
 
----
-
-## What I'm Working On
-
-**Data & Research Assistant** — Florida International University, College of Business · *Dec 2024 – May 2026*
-
-| | |
-|---|---|
-| **Cross-source panel construction** | Reconstructed a dormant FDI study from 2018 materials and assembled a **100+ country, 15-year panel** from World Bank, Bloomberg, Compustat, and WRDS — reconciling mismatched country identifiers, reporting frequencies, and coverage windows into one analysis-ready dataset. |
-| **Disclosure NLP** | Firm-level textual measures on cybersecurity-risk disclosures across **640 filings** from **80 breach-linked firms** and **240 matched controls**, using normalization, vectorization, and cosine similarity — plus the methodological diagnostic separating what was computed from what the data could support. |
-| **LLM failure analysis** | Diagnosed failure modes in an LLM-assisted document-review loop (run-to-run output variance, non-standardized field extraction, unverified citations) and specified the remediation architecture: schema-constrained extraction, deterministic validation, human routing for ambiguous records. |
-| **Structured legal research** | A **50-state** nonprofit audit-requirements dataset from LexisNexis covering **12 fields per jurisdiction** — audit triggers, revenue thresholds and basis, effective dates, exemptions, review rules, agencies, and statutory citations. |
-| **Recurring data pipelines** | Standardized a monthly minute-level FX extract across **12 currency pairs** with fixed naming conventions and completeness checks before handoff. |
-
-<details>
-<summary><b>Before this: Software Development Engineer, myPaisaa (Finsave Technologies) — Dec 2021 – Dec 2023</b></summary>
-
-<br/>
-
-Full-stack work at an early-stage fintech digitizing chit-fund and financial-service workflows. Angular admin portal, Ionic mobile app, Java Spring Boot services.
-
-- Owned the frontend of the **Paid Subscriber Module** — subscriber records, document collection, verification status, disbursement — coordinating API contracts across three surfaces serving **10K registered** and **6K monthly active** users.
-- Built a configurable filtering service (date ranges, subscriber and payout status, search, sort, pagination) adopted across **15+** financial reporting and payout modules, collapsing per-screen implementations into one shared component.
-- Rebuilt multi-step onboarding and KYC to persist applicant state across interruptions, rejections, and pending-verification holds, so stalled applicants resumed at their last completed step.
-- Instrumented the mobile app with event tracking across onboarding, KYC steps, and document submission — product's first funnel-level view of applicant drop-off.
-- Handled **10–15 production tickets/week** on-call, tracing defects through client state, API contracts, and stored data.
-
-</details>
+- 💼 **Currently:** Full Stack Software Engineer at Zoom
+- 🎓 **Education:** M.S. in Data Science & AI, Florida International University
+- ☁️ **Certifications:** AWS Certified Solutions Architect – Associate · Certified Kubernetes Administrator (CKA)
+- 📍 **Opportunities:** Open to relocation
 
 ---
 
-## Featured Work
+## What I've Worked On
 
-### 🏗️ [Telco Data Platform — OLTP → Lakehouse → Warehouse → ML](https://github.com/rishav-sah/telco-churn-data-platform)
-Local end-to-end data platform: 3NF Postgres source with CDC outbox and watermarks, Spark bronze/silver with SCD2 merges and DQ quarantine, dbt star schema in the warehouse, Airflow orchestration. The churn model trained from point-in-time warehouse features reproduces the reference CSV-trained model's ranking power — **ROC-AUC 0.8477 vs 0.848, 4.6× lift at the top decile** — on independently simulated history. Phases 6 and 8 (lineage tooling, cloud IaC) are deliberately deferred and marked as such in the repo.
+### 💬 Zoom Communications | Full Stack Software Engineer
+*Apr 2025 – Present*
 
-`Postgres` · `Spark` · `Delta` · `dbt` · `Airflow` · `MinIO` · `MLflow` · `Docker Compose`
+- Built **Java/Spring Boot and Go microservices** for real-time collaboration with REST and gRPC APIs, supporting **99.95% availability** and **sub-120 ms p99 latency**.
+- Developed **LLM-powered meeting summaries and transcript features** using Python, embeddings, and RAG; reduced summary latency by **35%**.
+- Delivered user-facing AI features with **React, Next.js, and TypeScript**, and improved initial page-load time by **40%**.
+- Built **Kafka event pipelines** handling **500K+ telemetry events per minute**, with retries and dead-letter queues.
+- Improved production monitoring and debugging with Datadog, reducing **mean time to resolution by 40%**.
 
-### 🔎 [AI-Powered Investor Intelligence Platform](https://github.com/rishav-sah/AI-Powered-Investor-Intelligence-Platform)
-RAG service over investor documents. Ingests annual reports, extracts KPIs with Azure OpenAI, and indexes content in Azure AI Search for semantic retrieval. Modular FastAPI backend with a PostgreSQL KPI store and insights dashboard, containerized on AKS behind an ACR CI/CD pipeline. Currently running against a three-company demo corpus; retrieval quality is not yet formally evaluated.
+### 💳 SoFi Technologies | ETL Software Engineer
+*Jul 2022 – Mar 2025*
 
-`Python` · `FastAPI` · `Azure OpenAI` · `Azure AI Search` · `PostgreSQL` · `Docker` · `AKS`
+- Developed **Python, Java, and Spring Boot** pipelines processing **50M+ lending and payment records daily**.
+- Designed and optimized **Snowflake** warehouse models, improving reporting query performance by **45%**.
+- Used **Kafka and Kafka Connect** to reduce transaction-data latency from hourly batches to **under 5 minutes**.
+- Built APIs and a **React/TypeScript data portal** to help analysts explore curated datasets and data-quality results.
+- Improved batch processing performance by **40%** while maintaining **99.9% data accuracy**.
 
-### 📉 [Telco Customer Churn — End-to-End ML Service](https://github.com/rishav-sah/telco-churn-app)
-XGBoost churn classifier on **7,043 records / 30 features**, threshold tuned to **0.35** — lifting recall **0.74 → 0.82** at **ROC-AUC 0.84**. Training gated on **25 Great Expectations checks**, runs tracked in MLflow, served through a Pydantic-validated FastAPI `/predict` endpoint on AWS ECS Fargate.
+### 🏦 PNC Bank | Java Software Developer
+*Oct 2019 – Jun 2022*
 
-`Python` · `XGBoost` · `MLflow` · `Great Expectations` · `FastAPI` · `Docker` · `AWS ECS`
+- Built **Java 8/11 and Spring Boot** banking services supporting **500K+ daily transactions**.
+- Developed **React/Redux** interfaces for account servicing and payment workflows.
+- Implemented authentication and authorization with **Spring Security, OAuth 2.0, JWT, and SSO**.
+- Tuned **Oracle SQL** and worked with **MongoDB** for transactional data.
+- Used **Docker, Kubernetes, Jenkins, and Maven** to cut deployment time from **2 hours to 20 minutes**.
+- Expanded automated regression testing with **JUnit, Mockito, Cypress, and Jest**.
 
 ---
 
 ## Tech Stack
 
-**Languages**
+### Languages & Backend
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
+![REST](https://img.shields.io/badge/REST_APIs-005571?style=flat-square)
+![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+
+### Frontend
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-**ML & Modeling**
+### Cloud, DevOps & Observability
 
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Optuna](https://img.shields.io/badge/Optuna-2B6CB0?style=flat-square)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square)
-
-**GenAI & NLP**
-
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![BERT](https://img.shields.io/badge/BERT-4285F4?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-5A4FCF?style=flat-square)
-![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Azure AI Search](https://img.shields.io/badge/Azure_AI_Search-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-
-**MLOps & Cloud**
-
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
-![Great Expectations](https://img.shields.io/badge/Great_Expectations-FF6600?style=flat-square)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS_ECS_·_S3_·_ALB-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure_AKS_·_ACR-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
-![Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-![Delta Lake](https://img.shields.io/badge/Delta_Lake-00ADD4?style=flat-square)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
-**Data & Serving**
+### Data, AI & Testing
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Gradio](https://img.shields.io/badge/Gradio-F97316?style=flat-square)
-
-**Full-Stack — Prior Production Experience**
-
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Ionic](https://img.shields.io/badge/Ionic-3880FF?style=flat-square&logo=ionic&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=flat-square)
-![Google Analytics](https://img.shields.io/badge/Google_Analytics-E37400?style=flat-square&logo=googleanalytics&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-**Financial & Legal Data Sources**
-
-![Bloomberg](https://img.shields.io/badge/Bloomberg_Terminal-000000?style=flat-square&logo=bloomberg&logoColor=white)
-![WRDS](https://img.shields.io/badge/WRDS-011F5B?style=flat-square)
-![Compustat](https://img.shields.io/badge/Compustat-1B365D?style=flat-square)
-![World Bank](https://img.shields.io/badge/World_Bank-002244?style=flat-square)
-![IMF](https://img.shields.io/badge/IMF-003366?style=flat-square)
-![LexisNexis](https://img.shields.io/badge/LexisNexis-9B1B30?style=flat-square)
-![SEC EDGAR](https://img.shields.io/badge/SEC_Filings-1F3864?style=flat-square)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
+![LLMs](https://img.shields.io/badge/LLMs-5A4FCF?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-4B5563?style=flat-square)
+![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
+![Mockito](https://img.shields.io/badge/Mockito-78A641?style=flat-square)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
 
 ---
 
-## Education
+## Engineering Interests
 
-**M.S. Data Science** — Florida International University, Miami, FL · *Aug 2024 – May 2026*
-
-**B.Tech. Computer Science & Engineering** — KIIT University, Odisha, India · *Aug 2018 – May 2022*
+- **Backend systems:** API design, microservices, performance tuning, and reliability
+- **Distributed systems:** Kafka, asynchronous processing, fault tolerance, and observability
+- **Full-stack development:** React and Next.js experiences backed by production APIs
+- **Applied AI:** Shipping LLM and RAG features as tested, maintainable products
 
 ---
 
-## Let's Talk
+## Education & Certifications
 
-I'm interested in roles and collaborations involving **financial and legal text extraction**, **RAG and LLM evaluation**, **panel data construction from heterogeneous sources**, and **getting models out of notebooks and behind an API**.
+- **M.S. in Data Science & AI** — Florida International University
+- **B.S. in Computer Science** — Kalinga Institute of Industrial Technology
+- **AWS Certified Solutions Architect – Associate**
+- **Certified Kubernetes Administrator (CKA)**
 
-If you're working on any of that — or you want to compare notes on why your extraction pipeline gives you a different answer every Tuesday — reach out.
+---
 
-[![Email](https://img.shields.io/badge/Email_me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rsah.pro@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishav-sah-b1966b190/)
+## Let's Connect
 
-<!--
-====================================================================
-GITHUB STATS BLOCK — currently disabled on purpose.
+I'm interested in **backend, full-stack, distributed systems, and AI-enabled software engineering** opportunities. If you're building reliable products at scale, I'd be glad to connect.
 
-These cards report *volume*, not quality. Right now your public
-profile is two strong projects, so a stats card mostly advertises a
-small repo count and a thin contribution history, which undercuts
-everything above it.
-
-Turn this on once you have ~6 months of consistent public commits or
-5+ substantive public repos. Until then, the featured-work section
-does more for you. Uncomment by deleting this comment marker and the
-closing one below.
+[![Email Me](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rsah.connect@gmail.com)
+[![Connect on LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishav-sah-b1966b190/)
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=rishav-sah&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" height="165" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rishav-sah&layout=compact&theme=github_dark&hide_border=true&langs_count=8" height="165" alt="Top languages" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=rishav-sah&theme=github-dark&hide_border=true" alt="GitHub streak" />
-
-</div>
-====================================================================
--->
-
-<div align="center">
-
-<br/>
 
 ![Profile views](https://komarev.com/ghpvc/?username=rishav-sah&label=Profile%20views&color=58A6FF&style=flat-square)
 
-<sub>M.S. Data Science, May 2026 · Miami, FL · Open to relocation</sub>
+<sub>Java · Spring Boot · Go · React/Next.js · AWS · Distributed Systems</sub>
 
 </div>
